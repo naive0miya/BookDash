@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+  </style>
+
+  <style name="ActionBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid">
+    <item name="android:titleTextStyle">@style/ToolbarTitleAppearance</item>
+    <item name="android:subtitleTextStyle">@style/ToolbarSubtitleAppearance</item>
+  </style>
+
+  <style name="ToolbarTitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+    <item name="fontPath">fonts/fonttype1.ttf</item>
+  </style>
+
+  <style name="ToolbarSubtitleAppearance" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    <item name="fontPath">fonts/fonttype1.ttf</item>
+  </style>
+</resources>
